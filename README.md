@@ -8,7 +8,7 @@ To see this working please check http://www.tristanperry.com/lightweight-lightbo
 
 ## Install Instructions
 
-- Ensure that JQuery (v1.x) is referenced
+- Ensure that JQuery (v3.x) is referenced
 
 - Include the CSS (from Styles.css) and the Javascript (from Scripts.js) in the page(s) you want the lightbox to appear in.
   - The JS can go anywhere on the page - in the `<head>` or within the `<body>`. The `$(function() {` notation is shorthand for `$( document ).ready()`

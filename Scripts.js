@@ -2,10 +2,9 @@ function showLbox(url) {
     $("#lboxinner").html('Loading image...');
     $("#lbox").show(300);
 
-    $('<img src="'+ url +'">').load(function() {
-        $("#lboxinner").html('');
-        $(this).appendTo('#lboxinner');
-    });
+    var img = $("<img>");
+    img.attr("src", url);
+    $("#lboxinner").html(img);
 }
 
 function hideLbox() {
